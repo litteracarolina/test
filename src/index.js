@@ -18,5 +18,5 @@ const config = {
 
 Mirador.viewer(config, [
     ...miradorImageToolsPlugin,
-    //...annotationPlugins
+    ...annotationPlugins
 ]);
