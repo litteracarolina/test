@@ -4,10 +4,10 @@ import { miradorImageToolsPlugin } from 'mirador-image-tools';
 //import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
 
 const config = {
-    //annotation: {
-    //    adapter: (canvasId) => new LocalStorageAdapter(`localStorage://?canvasId=${canvasId}`),
-        // adapter: (canvasId) => new AnnototAdapter(canvasId, endpointUrl),
-        //exportLocalStorageAnnotations: true, // display annotation JSON export button
+    annotation: {
+       adapter: (canvasId) => new LocalStorageAdapter(`localStorage://?canvasId=${canvasId}`),
+        adapter: (canvasId) => new AnnototAdapter(canvasId, endpointUrl),
+        exportLocalStorageAnnotations: true, // display annotation JSON export button
     // },
     id: 'demo',
     windows: [],
