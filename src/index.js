@@ -1,7 +1,7 @@
 import Mirador from 'mirador/dist/es/src/index';
 import { miradorImageToolsPlugin } from 'mirador-image-tools';
-//import annotationPlugins from 'mirador-annotations';
-//import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
+import annotationPlugins from 'mirador-annotations';
+import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
 
 const config = {
     annotation: {
