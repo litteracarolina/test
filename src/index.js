@@ -8,7 +8,7 @@ const config = {
        adapter: (canvasId) => new LocalStorageAdapter(`localStorage://?canvasId=${canvasId}`),
         adapter: (canvasId) => new AnnototAdapter(canvasId, endpointUrl),
         exportLocalStorageAnnotations: true, // display annotation JSON export button
-    // },
+    },
     id: 'demo',
     windows: [],
     workspace: {
