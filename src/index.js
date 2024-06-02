@@ -10,7 +10,7 @@ const config = {
         exportLocalStorageAnnotations: true, // display annotation JSON export button
     },
     id: 'demo',
-    windows: [],
+    windows: [{manifestId: 'https://www.e-codices.unifr.ch/metadata/iiif/bbb-0611/manifest.json'}],
     workspace: {
         type: "elastic"
     }
